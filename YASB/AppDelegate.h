@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class ViewController;
+@class YASBViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) YASBViewController *viewController;
 
 @end

@@ -16,9 +16,9 @@
 		3F3F9137177DD3F8003FF49F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F9136177DD3F8003FF49F /* Default.png */; };
 		3F3F9139177DD3F8003FF49F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F9138177DD3F8003FF49F /* Default@2x.png */; };
 		3F3F913B177DD3F8003FF49F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F913A177DD3F8003FF49F /* Default-568h@2x.png */; };
-		3F3F913E177DD3F8003FF49F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F913D177DD3F8003FF49F /* ViewController.m */; };
-		3F3F9141177DD3F8003FF49F /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F913F177DD3F8003FF49F /* ViewController_iPhone.xib */; };
-		3F3F9144177DD3F8003FF49F /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F9142177DD3F8003FF49F /* ViewController_iPad.xib */; };
+		3F3F913E177DD3F8003FF49F /* YASBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F913D177DD3F8003FF49F /* YASBViewController.m */; };
+		3F3F9141177DD3F8003FF49F /* YASBViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F913F177DD3F8003FF49F /* YASBViewController_iPhone.xib */; };
+		3F3F9144177DD3F8003FF49F /* YASBViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F9142177DD3F8003FF49F /* YASBViewController_iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +35,10 @@
 		3F3F9136177DD3F8003FF49F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3F3F9138177DD3F8003FF49F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3F3F913A177DD3F8003FF49F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		3F3F913C177DD3F8003FF49F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3F3F913D177DD3F8003FF49F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3F3F9140177DD3F8003FF49F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		3F3F9143177DD3F8003FF49F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		3F3F913C177DD3F8003FF49F /* YASBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YASBViewController.h; sourceTree = "<group>"; };
+		3F3F913D177DD3F8003FF49F /* YASBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YASBViewController.m; sourceTree = "<group>"; };
+		3F3F9140177DD3F8003FF49F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YASBViewController_iPhone.xib; sourceTree = "<group>"; };
+		3F3F9143177DD3F8003FF49F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YASBViewController_iPad.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +87,10 @@
 			children = (
 				3F3F9133177DD3F8003FF49F /* AppDelegate.h */,
 				3F3F9134177DD3F8003FF49F /* AppDelegate.m */,
-				3F3F913C177DD3F8003FF49F /* ViewController.h */,
-				3F3F913D177DD3F8003FF49F /* ViewController.m */,
-				3F3F913F177DD3F8003FF49F /* ViewController_iPhone.xib */,
-				3F3F9142177DD3F8003FF49F /* ViewController_iPad.xib */,
+				3F3F913C177DD3F8003FF49F /* YASBViewController.h */,
+				3F3F913D177DD3F8003FF49F /* YASBViewController.m */,
+				3F3F913F177DD3F8003FF49F /* YASBViewController_iPhone.xib */,
+				3F3F9142177DD3F8003FF49F /* YASBViewController_iPad.xib */,
 				3F3F912B177DD3F8003FF49F /* Supporting Files */,
 			);
 			path = YASB;
@@ -165,8 +165,8 @@
 				3F3F9137177DD3F8003FF49F /* Default.png in Resources */,
 				3F3F9139177DD3F8003FF49F /* Default@2x.png in Resources */,
 				3F3F913B177DD3F8003FF49F /* Default-568h@2x.png in Resources */,
-				3F3F9141177DD3F8003FF49F /* ViewController_iPhone.xib in Resources */,
-				3F3F9144177DD3F8003FF49F /* ViewController_iPad.xib in Resources */,
+				3F3F9141177DD3F8003FF49F /* YASBViewController_iPhone.xib in Resources */,
+				3F3F9144177DD3F8003FF49F /* YASBViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +179,7 @@
 			files = (
 				3F3F9131177DD3F8003FF49F /* main.m in Sources */,
 				3F3F9135177DD3F8003FF49F /* AppDelegate.m in Sources */,
-				3F3F913E177DD3F8003FF49F /* ViewController.m in Sources */,
+				3F3F913E177DD3F8003FF49F /* YASBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,20 +194,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		3F3F913F177DD3F8003FF49F /* ViewController_iPhone.xib */ = {
+		3F3F913F177DD3F8003FF49F /* YASBViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3F3F9140177DD3F8003FF49F /* en */,
 			);
-			name = ViewController_iPhone.xib;
+			name = YASBViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		3F3F9142177DD3F8003FF49F /* ViewController_iPad.xib */ = {
+		3F3F9142177DD3F8003FF49F /* YASBViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3F3F9143177DD3F8003FF49F /* en */,
 			);
-			name = ViewController_iPad.xib;
+			name = YASBViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
