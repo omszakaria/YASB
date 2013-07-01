@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AFOAuth2Client.h"
+#import "AFJSONRequestOperation.h"
+#import "UIImageView+AFNetworking.h"
 
 @interface YASBViewController : UIViewController <UIWebViewDelegate>
 

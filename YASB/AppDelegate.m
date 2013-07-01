@@ -21,8 +21,8 @@
     } else {
         self.viewController = [[YASBViewController alloc] initWithNibName:@"YASBViewController_iPad" bundle:nil];
     }
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
-    self.window.rootViewController = navController;
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     return YES;
 }

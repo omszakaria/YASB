@@ -33,6 +33,15 @@
 
     [webView loadRequest: request];
     [addressBar setText: address];
+
+    NSURL *AFurl = [NSURL URLWithString:@"http://httpbin.org/ip"];
+    NSURLRequest *AFrequest = [NSURLRequest requestWithURL:AFurl];
+    
+    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:AFrequest success:^(NSURLRequest *AFrequest, NSHTTPURLResponse *response, id JSON) {
+        NSLog(@"IP Address: %@", [JSON valueForKeyPath:@"origin"]);
+    } failure:nil];
+    
+    [operation start];
 }
 
 -(IBAction)goAddress:(id)sender{
